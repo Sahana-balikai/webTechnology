@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  font: outline;
+  text-align: center;
+  color: aqua;
+}
+
+p {
+  text-align: center;
+  color: aqua;
+}
+
+.form {
+  text-align: center;
+  color: aqua;
+  font-size: 20px;
+  border-spacing: 30px;
+}
+
+.box {
+  width: 500px;
+  height: 30px;
+  border-color: deepskyblue;
+}
+
+.dropdown {
+  width: 500px;
+  height: 30px;
+  border-color: deepskyblue;
+}
+
+.button {
+}
+
+.role {
+  width: 400px;
+  height: 30px;
+}
+
+.left {
+  text-align: left;
+  text-align-last: center;
+}

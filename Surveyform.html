@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="survey.css"/>
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <br/>
+        <br/>
+        <br/>
+        <!---forms----->
+        <div class="form">
+        <form action="">
+            <!----text field---->
+            <label for="name">Name</label>
+            <input class="box"  type="text"  name="namefield"  id="name"  placeholder="Enter Your Name"  required/>
+
+            <br/>
+            <br/>
+            <br/>
+
+            <!----email---->
+            <label for="email">Email</label>
+            <input class="box"  type="email" name="emailfield" id="email" placeholder="Enter Your Email"  required/>
+            <br/>
+            <br/>
+            <br/>
+
+            <!----age----->
+            <label for="age">Age</label>
+            <input class="dropdown" type="number" value="" min="0" max="100" placeholder="Age" required>  
+
+             <br/>
+             <br/>
+             <br/>
+
+             <!---current role---->
+             <label for="current role">Which option best describes your current role</label>
+             <select class="role" id="current role">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="employee">employee</option>
+                <option value="other">other</option>
+              </select>
+
+              <br/>
+              <br/>
+              <br/>
+
+              <!---recommend---->
+            
+              <div class="button">
+              <p>How Likely is that you would recommend freeCodeCamp to a friend?
+              
+              <input class="left" type="radio" name="field" id="Definitely-radio" value="yes"/>
+              <label for="Definitely">Definitely</label><br/> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+              
+              
+              <input class="left" type="radio" name="field" id="Maybe-radio" value="yes" />
+              <label for="Maybe">Maybe</label><br/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+
+              
+              <input class="left" type="radio" name="field" id="NotSure-radio"  value="yes"/>
+              <label for="NotSure">NotSure</label></p></div>
+
+
+              <br/>
+              <br/>
+              <br/>
+              <!---select an option---->
+              <label for="option">What do you like most in FCC:</label>
+
+              <select id="option">
+              <option value="select an option" selected>Select an option</option>
+              <option value="environment">Environment</option>
+              <option value="Course">Course</option>
+              <option value="Teaching">Teaching</option>
+              </select>
+              <br/>
+              <br/>
+              <br/>
+
+              <!--improvements---->
+              <p>Things that should be improved in the future:
+                (check all that apply)
+                
+              <input class="left" type="checkbox" name="projectfield" id="project" />
+              <label for="project">Front-end Projects</label><br/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+              
+              <input class="left" type="checkbox" name="projectfield" id="project" />
+              <label for="project">Back-end Projects</label><br/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+              
+              <input class="left" type="checkbox" name="projectfield" id="project" />
+              <label for="project">Data Visualization</label></p>
+                
+
+              <!---sumbit---->
+              <input type="submit" value="Submit">
+
+
+
+
+
+
+
+              
+
+              
+                
+
+
+              
+
+
+              
+
+
+              
+
+
+
+
+        </form>
+        </div>
+    </body>
+</html>
